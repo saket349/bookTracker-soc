@@ -23,7 +23,8 @@
 ## Term 2 (post-midsem) - 
 ### Task 1 : designing screen for authentiacation system (deadline: 15th May)
  - in this task you are supposed to design screens for your authentication system
- - Authentication system will have 3 scrrens
+ - Authentication system will have 3 scrrens 
+ `backgroud color all pages: Color.fromRGBO(229, 229, 229, 1)`
  #### ***Screen1:*** main page: this the main screen which says about the login and signin
   <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.24%20PM%20(1).jpeg" width="250"> 
   

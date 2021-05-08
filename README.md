@@ -29,7 +29,6 @@
   
  #### ***Screen2:*** register page: for new users
  <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.25%20PM.jpeg" width="250"> 
-  <br>
     
  #### ***Screen3:*** login page: for registered users
    <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.24%20PM.jpeg" width="250"> 

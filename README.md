@@ -21,6 +21,12 @@
 - <a href="https://pub.dev/packages/"> Flutter packages </a>
 
 ## Term 2 (post-midsem) - 
-### Task 1 : Authentication page designing 
- - follow the provided tutorial 
- - 
+### Task 1 : designing screen for authentiacation system (deadline: 15th May)
+ - in this task you are supposed to design screens for your authentication system
+ - Authentication system will have four scrrens
+ - ***Screen1:*** main.dart: this the main screen which says about the login and signin
+ - ***Screen2:*** register.dart:  
+    
+ - ***Screen3:*** signin.dart:
+   
+ - ***Screen4:*** 

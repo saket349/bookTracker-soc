@@ -21,5 +21,5 @@
 - <a href="https://pub.dev/packages/"> Flutter packages </a>
 
 ## Term 2 (post-midsem) - 
-### Authentication page designing  
+### Task 1 : Authentication page designing 
  - 

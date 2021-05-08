@@ -23,10 +23,22 @@
 ## Term 2 (post-midsem) - 
 ### Task 1 : designing screen for authentiacation system (deadline: 15th May)
  - in this task you are supposed to design screens for your authentication system
- - Authentication system will have four scrrens
- - ***Screen1:*** main.dart: this the main screen which says about the login and signin
- - ***Screen2:*** register.dart:  
+ - Authentication system will have 3 scrrens
+ #### ***Screen1:*** main page: this the main screen which says about the login and signin
+  <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.24%20PM%20(1).jpeg" width="250"> 
+  <br>
+  
+ #### ***Screen2:*** register page: for new users
+ <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.25%20PM.jpeg" width="250"> 
+  <br>
     
- - ***Screen3:*** signin.dart:
-   
- - ***Screen4:*** 
+ #### ***Screen3:*** login page: for registered users
+   <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.24%20PM.jpeg" width="250"> 
+  <br>
+
+### resources: 
+- flutter: <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ"></a>
+- firebase: <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC"></a>
+
+
+

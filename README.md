@@ -25,13 +25,47 @@
  - in this task you are supposed to design screens for your authentication system
  - Authentication system will have 3 scrrens 
  `backgroud color all pages: Color.fromRGBO(229, 229, 229, 1)`
- #### ***Screen1:*** main page: this the main screen which says about the login and signin
+ #### ***Screen1:*** Home page: this the main screen which says about the login and signin
+ ```
+  New Here (bg:-Color.fromRGBO(56, 166, 167, 1),TextStyle(
+                          color: Colors.white,
+                          fontSize: 24,
+                        ),)
+	 Login (bg:-Color.fromRGBO(36, 130, 140, 1),TextStyle(
+                          color: Colors.white,
+                          fontSize: 24,
+                        ),)
+  BOOK TRACKER(fontSize: 36,
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 1.5,)
+ ```
   <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.24%20PM%20(1).jpeg" width="250"> 
   
  #### ***Screen2:*** register page: for new users
+ ```
+ # Login ,Register Page 
+Button:- 
+	Color :-  Color.fromRGBO(56, 166, 167, 1),
+	Border Radius :- 30
+	Text:- fontsize- 14
+
+#Login ,Register Text Fields :- 
+  	fillColor: Color.fromRGBO(229, 229, 229, 1),
+
+# Sign in with Google          
+     	fontSize: 20,
+     	color: Colors.grey,
+ ```
  <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.25%20PM.jpeg" width="250"> 
     
  #### ***Screen3:*** login page: for registered users
+ ```
+ #Login Register Page
+Text Header:-
+	color: Color.fromRGBO(56, 166, 167, 1)
+	fontSize: 38
+	fontWeight: FontWeight.w900
+ ```
    <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.24%20PM.jpeg" width="250"> 
 
 ### resources: 

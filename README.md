@@ -22,4 +22,5 @@
 
 ## Term 2 (post-midsem) - 
 ### Task 1 : Authentication page designing 
+ - follow the provided tutorial 
  - 

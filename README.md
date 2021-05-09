@@ -23,7 +23,7 @@
 ## Term 2 (post-midsem) - 
 ### Task 1 : designing screen for authentiacation system (deadline: 15th May)
  - in this task you are supposed to design screens for your authentication system
- - Authentication system will have 3 scrrens 
+ - Authentication system will have 3 screens 
  `backgroud color all pages: Color.fromRGBO(229, 229, 229, 1)`
  #### ***Screen1:*** Home page: this the main screen which says about the login and signin
  ```

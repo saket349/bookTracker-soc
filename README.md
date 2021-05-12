@@ -68,7 +68,7 @@ Text Header:-
  ```
    <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.24%20PM.jpeg" width="250"> 
 
-### resources: 
+### <a href="https://github.com/saket349/bookTracker-soc/blob/35e0222d68db50a3d9dbf25e2af142e3eccf8ee0/resources.md">Resources</a>
 
 
 

@@ -69,9 +69,7 @@ Text Header:-
    <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.24%20PM.jpeg" width="250"> 
 
 ### resources: 
-- <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ">flutter tutorial</a>
-- <a href="https://youtu.be/gi7t8LWW7pA">flutter based authentication page</a>
-- <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC">firebase tutorial</a>
+
 
 
 

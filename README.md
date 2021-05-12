@@ -21,6 +21,7 @@
 - <a href="https://pub.dev/packages/"> Flutter packages </a>
 
 ## Term 2 (post-midsem) - 
+### <a href="https://github.com/saket349/bookTracker-soc/blob/35e0222d68db50a3d9dbf25e2af142e3eccf8ee0/resources.md">Resources</a>
 ### Task 1 : designing screen for authentiacation system (deadline: 15th May)
  - in this task you are supposed to design screens for your authentication system
  - Authentication system will have 3 screens 
@@ -68,7 +69,7 @@ Text Header:-
  ```
    <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.24%20PM.jpeg" width="250"> 
 
-### <a href="https://github.com/saket349/bookTracker-soc/blob/35e0222d68db50a3d9dbf25e2af142e3eccf8ee0/resources.md">Resources</a>
+
 
 
 

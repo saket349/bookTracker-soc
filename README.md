@@ -22,7 +22,6 @@
 
 ## Term 2 (post-midsem) - 
 ### <a href="https://github.com/saket349/bookTracker-soc/blob/35e0222d68db50a3d9dbf25e2af142e3eccf8ee0/resources.md">Resources</a> for week 2
-<hr>
 ### Task 1 : designing screen for authentiacation system (deadline: 15th May)
  - in this task you are supposed to design screens for your authentication system
  - Authentication system will have 3 screens 

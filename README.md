@@ -68,9 +68,10 @@ Text Header:-
 	fontWeight: FontWeight.w900
  ```
    <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.24%20PM.jpeg" width="250"> 
-
-
-
+   
+   
+   <hr>
+<h3 align="center"> Happy Coding ! :hearts:</h3>
 
 
 

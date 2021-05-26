@@ -68,7 +68,11 @@ Text Header:-
 	fontWeight: FontWeight.w900
  ```
    <img src="https://github.com/saket349/bookTracker-soc/blob/47931635eca3b3f1a536d9eb24b76c42d5e37520/authentication/images/WhatsApp%20Image%202021-05-08%20at%2010.47.24%20PM.jpeg" width="250"> 
-   
+
+### Task 2: connecting authentiacation screens with firebase (deadline: 25th May)
+You will we required to connect your authentication screens with firebase, so they can stores user data for authentication system.
+
+
    
    <hr>
 <h3 align="center"> < Happy Coding ! :hearts: /> </h3>

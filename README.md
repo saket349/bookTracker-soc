@@ -72,6 +72,8 @@ Text Header:-
 ### Task 2: connecting authentiacation screens with firebase (deadline: 25th May)
 You will we required to connect your authentication screens with firebase, so they can stores user data for authentication system.
 
+### Term 3
+
 
    
    <hr>

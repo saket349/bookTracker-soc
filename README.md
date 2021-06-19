@@ -12,8 +12,7 @@
 
 
 ### <a href="https://docs.google.com/spreadsheets/d/1syp0nD5TZ2I_ZsgKlT7913KqgaJcZldrZ5tzsWCgHtw/edit?usp=sharing"> Week Progress Sheet Link </a>
-### Look for other branch; if you want ot see the code
-
+### Codes are there in  different branch
 ## Term 1 Materials- 
 - <a href="https://firebase.flutter.dev/docs/auth/"> Authentication Doc </a>
 - <a href="https://flutter-examples.com/run-test-flutter-apps-directly-on-real-android-device/"> Connect Real Device to Flutter </a>

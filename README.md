@@ -73,6 +73,10 @@ You will we required to connect your authentication screens with firebase, so th
 
 ### Term 3
 ##### drive link- <a href="https://drive.google.com/drive/folders/1wP2dGWqGnEohEebiDMnQJLn37oUNrbrT?usp=sharing">NodeJS session</a>
+Objectives:
+- learn basic fundamentals of ndoejs and expressjs
+- learn to connect node server with database (mongoose)
+- Build APIs and connect backend with frontend
 
    
    <hr>

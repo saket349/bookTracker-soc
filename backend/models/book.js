@@ -21,6 +21,12 @@ const bookSchema = new schema(
             trim: true
         },
 
+        ownerID: {
+            type: String,
+            required: true,
+            trim: true
+        },
+
         isActive : {
             type: Boolean,
         },

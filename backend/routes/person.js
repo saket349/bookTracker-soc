@@ -8,5 +8,6 @@ router.post("/post", personController.createPerson)
 router.get("/list",personController.getUser)
 router.put("/upd",personController.updatePerson)
 router.delete("/del",personController.deletePerson)
+router.get("/mybook",personController.mybook)
 
 module.exports = router;

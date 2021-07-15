@@ -1,4 +1,5 @@
 const Personservice = require("../services/person")
+const Bookservice = require("../services/book")
 
 
 exports.createPerson = async(req, res) => {
@@ -49,6 +50,22 @@ exports.deletePerson = async(req, res) => {
     const id = req.query.id;
     
     let response = await Personservice.deletePerson(id);
+
+    if(response.success){
+        return res.status(200).json(response)
+    }else{
+        return res.status(400).json(response)
+    }
+}
+
+exports.mybook = async(req, res) => {
+    const id = req.query.id;
+    let query = {
+      ownerID : id
+    };    
+    let response = await Bookservice.getBook({
+      query
+    });
 
     if(response.success){
         return res.status(200).json(response)

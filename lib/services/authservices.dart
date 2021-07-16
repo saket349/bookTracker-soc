@@ -1,4 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 import 'package:flutter/material.dart';
@@ -22,7 +23,7 @@ class AuthService {
         accessToken: googleAuth.accessToken,
         idToken: googleAuth.idToken,
       );
-      Navigator.pop(context);
+      // Navigator.pop(context);
       // Once signed in, return the UserCredential
       return await _auth.signInWithCredential(credential);
     } catch (e) {
@@ -39,19 +40,16 @@ class AuthService {
           email: email, password: password);
       Navigator.pop(context);
 
-      if (!result.user.emailVerified) {
-        result.user.sendEmailVerification();
-
-        _auth.signOut();
-        return null;
-      }
       // ignore: deprecated_member_use
       dynamic user = result.user.email;
-      Navigator.pop(context);
+      // Navigator.pop(context);
 
-      return user;
+      return {"user": user, "success": true};
     } on FirebaseAuthException catch (e) {
-      return null;
+      print(e);
+      return {"success": false, "error": e.message};
+    } catch (e) {
+      return {"success": false, "error": e};
     }
   }
 
@@ -64,15 +62,14 @@ class AuthService {
 
       // ignore: deprecated_member_use
       dynamic user = result.user.email;
+      Navigator.pop(context);
 
-      return user;
+      return {"user": user, "success": true};
     } on FirebaseAuthException catch (e) {
-      if (e.code == 'weak-password') {
-      } else if (e.code == 'email-already-in-use') {
-      } else {}
-      return null;
+      print(e);
+      return {"success": false, "error": e.message};
     } catch (e) {
-      return null;
+      return {"success": false, "error": e};
     }
   }
 
@@ -89,6 +86,12 @@ class AuthService {
     }
   }
 
+  currentUser() {
+    return _auth.currentUser;
+  }
+
+  //Using Stream to listen to Authentication State
+  Stream get authState => _auth.authStateChanges();
   Stream get User {
     return _auth.authStateChanges();
   }

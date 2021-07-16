@@ -251,10 +251,27 @@ class _LoginState extends State<Login> {
                                       _formKey.currentState.validate();
 
                                   if (_isvalid) {
-                                    await _auth.signInWithEmailAndPasword(
-                                        _email.text, _password.text, context);
+                                    final message =
+                                        await _auth.signInWithEmailAndPasword(
+                                            _email.text,
+                                            _password.text,
+                                            context);
                                     _password.clear();
                                     _email.clear();
+                                    if (!message["success"]) {
+                                      final snackBar = SnackBar(
+                                        content:
+                                            Text(message["error"].toString()),
+                                        action: SnackBarAction(
+                                          label: 'cancel',
+                                          onPressed: () {
+                                            // Some code to undo the change.
+                                          },
+                                        ),
+                                      );
+                                      ScaffoldMessenger.of(context)
+                                          .showSnackBar(snackBar);
+                                    }
                                   }
                                 },
                                 child: Row(

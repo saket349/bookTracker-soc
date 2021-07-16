@@ -13,7 +13,7 @@ class _GoogleSignInState extends State<GoogleSignIn> {
       color: Color.fromRGBO(56, 166, 167, 1),
       splashColor: Colors.grey,
       onPressed: () async {
-        // await AuthService().signInWithGoogle(context);
+        await AuthService().signInWithGoogle(context);
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
       highlightElevation: 0,

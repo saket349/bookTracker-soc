@@ -10,6 +10,11 @@
 - Jatin Mankar
 - Rushi Chavda
 
+# About the repository:
+- number of branch : 2
+- Code branch for frontend screens
+- main branch for resorces and backend tools
+
 
 ### <a href="https://docs.google.com/spreadsheets/d/1syp0nD5TZ2I_ZsgKlT7913KqgaJcZldrZ5tzsWCgHtw/edit?usp=sharing"> Week Progress Sheet Link </a>
 ### Codes are there in  different branch
